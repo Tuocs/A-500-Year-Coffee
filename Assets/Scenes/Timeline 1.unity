@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.127
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.039751373, g: 0.06987036, b: 0.104401074, a: 0.127}
+  m_IndirectSpecularColor: {r: 0.039768234, g: 0.06984768, b: 0.10433882, a: 0.127}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -321,10 +321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 9014170783728641054, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 1738315565}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9014170783809206332, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       insertIndex: -1
@@ -1104,11 +1101,6 @@ MonoBehaviour:
   lookTarget: {fileID: 994040728}
   followTarget: {fileID: 1011003048}
   offset: {x: 0, y: 0.4, z: 0}
---- !u!4 &407447137 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9014170783728641054, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
-  m_PrefabInstance: {fileID: 69484726}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &464926403
 GameObject:
   m_ObjectHideFlags: 0
@@ -4551,13 +4543,13 @@ Transform:
   m_GameObject: {fileID: 1738315564}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.748, z: 0}
+  m_LocalPosition: {x: 15.52, y: 0.6134399, z: 14.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1026001570}
   - {fileID: 330424907}
-  m_Father: {fileID: 407447137}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1738315566
 MeshRenderer:
@@ -5476,3 +5468,4 @@ SceneRoots:
   - {fileID: 1664129164}
   - {fileID: 69484726}
   - {fileID: 2043364307}
+  - {fileID: 1738315565}
