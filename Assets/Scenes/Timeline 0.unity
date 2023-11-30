@@ -338,18 +338,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47061651}
-  m_LocalRotation: {x: -0, y: 0.45799226, z: -0, w: -0.88895625}
-  m_LocalPosition: {x: 0, y: 0, z: 16.56}
+  m_LocalRotation: {x: -0, y: 0.32213145, z: -0, w: -0.946695}
+  m_LocalPosition: {x: 0, y: 0, z: 16.721}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 388796371}
   - {fileID: 1695304359}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 305.485, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 322.41602, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 14.667, y: 1.436}
+  m_AnchoredPosition: {x: 15.11, y: 1.436}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47061656
@@ -366,6 +366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 388796372}
   Cup: {fileID: 2043364301}
+  Audio: {fileID: 0}
 --- !u!82 &47061657
 AudioSource:
   m_ObjectHideFlags: 0

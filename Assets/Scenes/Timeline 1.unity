@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.127
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.039751373, g: 0.06987036, b: 0.104401074, a: 0.127}
+  m_IndirectSpecularColor: {r: 0.03982258, g: 0.06986576, b: 0.104380295, a: 0.127}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1129,7 +1129,7 @@ RectTransform:
   m_GameObject: {fileID: 464926403}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1425645652}
@@ -2292,9 +2292,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   display: {fileID: 1425645653}
   blerbs:
-  - yea num 1
-  - yea num 2
-  - AAAAAAAAAAAAAAAA
+  - Was that coffee good?
+  - That coffee cost you $[insert number for the cost of it]. You drank it in 15
+    minutes and the caffeine will last you at most 6 hours
+  - "That styrofoam cup it came in will last so much longer, but you didn\u2019t
+    really think about that, right?"
+  - Here, take this calendar. Use it to see what will happen to this cup as time
+    goes on
 --- !u!1 &1026001569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4004,8 +4008,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.2
-  m_fontSizeBase: 0.2
+  m_fontSize: 0.1
+  m_fontSizeBase: 0.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
