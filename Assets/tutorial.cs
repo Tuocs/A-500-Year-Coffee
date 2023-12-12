@@ -10,6 +10,13 @@ public class tutorial : MonoBehaviour
     [SerializeField] private AudioSource Audio;
 
     private int phase = 1;
+
+    void Start()
+    {
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().StartTime();
+
+    }
+
     public void PhaseTwo()
     {
         if (phase != 1) { return; }
