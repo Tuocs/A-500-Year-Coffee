@@ -22,6 +22,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void Start()
+    {
+        startTime = Time.time;
+    }
     public void StartTime()
     {
         startTime = Time.time;
