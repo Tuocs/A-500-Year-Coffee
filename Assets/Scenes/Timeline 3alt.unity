@@ -15393,8 +15393,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   display: {fileID: 1425645653}
   blerbs:
-  - 'Remember that cup you threw? Well, 100 years have passed. '
-  - The paper sleeve is gone but the cup is still there.
+  - Approximately 1369 tons of Styrofoam are buried in US landfills every day
+  - By volume, Styrofoam fills up 25 to 30 percent of landfill space globally
   - You wouldn't normally even see this far in your lifetime, but the cup has even
     more to go...
 --- !u!1001 &1014063545
