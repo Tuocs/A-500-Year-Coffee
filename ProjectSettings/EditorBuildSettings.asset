@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Timeline 0.unity
     guid: 5353745c8f248ba44b94a68d0db20fa3
   - enabled: 1
-    path: Assets/Scenes/old scenes/Timeline 1.unity
-    guid: 478457e1944b09a449187c3f42a558dd
+    path: Assets/Scenes/Timeline 1alt.unity
+    guid: 350d16f9cdd96a341a35e6d55763f10f
   - enabled: 1
-    path: Assets/Scenes/old scenes/Timeline 2.unity
-    guid: 390b5c54c5307c34f9f6a6bfd050218f
+    path: Assets/Scenes/Timeline 2alt.unity
+    guid: fb71106688805614388a7ff50d673d0b
+  - enabled: 1
+    path: Assets/Scenes/Timeline 3alt.unity
+    guid: 5f46ae62a0088ce43988e06ee3b7c12f
   - enabled: 1
     path: Assets/Scenes/Timeline final.unity
     guid: b95046393097c7344a7a3a97c2f0b5af
