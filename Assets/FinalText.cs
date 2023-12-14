@@ -10,7 +10,7 @@ public class FinalText : MonoBehaviour
 
     private void Start()
     {
-        text.text = "If this cup were made of paper, this game would have lasted " + ((Time.time - GameManager.startTime) / 0.00015331956f) + " seconds"; 
+        text.text = "If this cup were made of paper at the rate you were traveling through time, this game would have lasted less than a milisecond"; 
     }
     void Update()
     {

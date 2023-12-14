@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Timeline 0.unity
     guid: 5353745c8f248ba44b94a68d0db20fa3
   - enabled: 1
-    path: Assets/Scenes/Timeline 1.unity
+    path: Assets/Scenes/old scenes/Timeline 1.unity
     guid: 478457e1944b09a449187c3f42a558dd
   - enabled: 1
-    path: Assets/Scenes/Timeline 2.unity
+    path: Assets/Scenes/old scenes/Timeline 2.unity
     guid: 390b5c54c5307c34f9f6a6bfd050218f
   - enabled: 1
-    path: Assets/Scenes/Timeline 3.unity
+    path: Assets/Scenes/Timeline final.unity
     guid: b95046393097c7344a7a3a97c2f0b5af
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
