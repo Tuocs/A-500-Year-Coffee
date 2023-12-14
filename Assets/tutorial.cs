@@ -29,7 +29,7 @@ public class tutorial : MonoBehaviour
         if (phase != 2) { return; }
         phase = 3;
         Cup.SetActive(true);
-        text.text = "Now grab and enjoy your coffee, be carefull not to drop it carelessly";
+        text.text = "Now grab and enjoy your coffee, be careful not to drop it carelessly";
         Audio.Play();
     }
 }
