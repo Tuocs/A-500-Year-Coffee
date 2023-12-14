@@ -10,10 +10,7 @@ public class FinalText : MonoBehaviour
 
     private void Start()
     {
-        text.text = "you have been playing this game for\n" + 
-            Mathf.RoundToInt(Time.time - GameManager.startTime + 120) + " Seconds\n " +
-            "but if your cup was paper it would have only lasted " + 
-            ((Time.time - GameManager.startTime + 120) * 0.00015331956f);
+        text.text = "If this cup were made of paper, this game would have lasted " + ((Time.time - GameManager.startTime) / 0.00015331956f) + " seconds"; 
     }
     void Update()
     {
